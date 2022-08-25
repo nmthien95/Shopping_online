@@ -56,7 +56,7 @@ export default {
       if (check) {
         console.log("Hợp lệ ", this.quantity);
 
-        this.actBuyProduct(data);
+        // this.actBuyProduct(data);
         // this.$store.dispatch("cart/actBuyProduct", data);
       } else {
         this.$notify(NOTI_GREATER_THAN_ONE);
